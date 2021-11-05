@@ -72,8 +72,11 @@
             System.out.println("la surface fe la cercle est "+c.surface());
             System.out.println("la surface fe la cylender est "+cy.surface());
         */
-            Cylendre C1=new Cylendre(new point(4,12),8,14,"bleue");
-            Cylendre C2=new Cylendre(14,8, new point(4,12),"bleue");
+             Cylendre C1=new Cylendre(14f,8f, new point(4,12),"bleue");
+
+            Cylendre C2=new Cylendre(14f,8f, new point(4,12),"bleue");
+           // Cylendre C1=new Cylendre(new point(4,12),8,14,"bleue");
+            //Cylendre C2=new Cylendre(14,8, new point(4,12),"bleue");
             /*
             after creating those two objects i had an error saying :
             'Cylendre(float, float)' in 'geometrie.project.Cylendre' cannot be applied to '(int, int, geometrie.project.point, java.lang.String)'
