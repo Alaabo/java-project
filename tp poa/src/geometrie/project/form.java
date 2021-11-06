@@ -17,12 +17,13 @@ abstract class form {
         couleur=c;
     }
     abstract  protected float surface();
-     void afficher() {
+     public void afficher() {
          /*
          after overriding the toString method we can directly use the object itself without
          accessing to the variable one by one
           */
          System.out.println(p);}
+    abstract void afficher(form f);
 
     public point getP() {
         return p;
